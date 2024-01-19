@@ -5,10 +5,10 @@ body{
 }
 
 /* #region Debug */
-.debug main *{
-    height: 300px;
-    width: 100%;
-}
+/* .debug main *{
+    height: 500px;
+    width: 100%; */
+
 
 /* .debug #logo,#site_header nav,#login{
     background-color: #daa520;
@@ -23,11 +23,6 @@ body{
     background-color: #d3d3d3FF;
 }
 
-.debug .jumbotron>aside{
-    /* background-color: #ee82eeFF;
-    height: 80%;
-    order: 1px dashed black; */
-} 
 
 /* .debug header{
     background-color: #add8e6;
@@ -35,21 +30,15 @@ body{
 } */
 
 
-.debug div.picture_box{
+/* .debug div.picture_box{
     background-color: #1e90ffFF;
-    height: 80%;
-    width: 45%;
-    align-self: center;
     border: 1px dashed black;
-}
+} */
 
-.debug aside.text_box{
+/* .debug aside.text_box{
     background-color: #ffc0cbFF;
-    height: 80%;
-    width: 30%;
-    align-self: center;
     border: 1px dashed black;
-}
+} */
 
 .debug div.main_footer{
     height: 500px;
@@ -137,7 +126,10 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    font-weight: 500
 }
+
+/* #region Jumbotron */
 
 .jumbotron>aside{
     padding-top: 2rem;
@@ -156,7 +148,7 @@ main{
     justify-content: center;
     background-image: url(../img/jumbo.png);
     background-repeat: round;
-    padding-bottom: 9%;
+    padding-bottom: 5%;
 }
 
 .jumbotron h1{
@@ -191,11 +183,40 @@ button#browser_launch{
     background-color: #23272aFF;
     color: #fff;
 }
+/* #endregion Jumbotron */
 
-    
+
 section{
     display: flex;
     justify-content: center;
+    padding-bottom: 3rem;
+}
+
+.picture_box{
+    height: 80%;
+    width: 45%;
+    align-self: center;
+}
+
+.picture_box img{
+    width: 85%;
+}
+
+.text_box{
+    height: 80%;
+    width: 20%;
+    align-self: center;
+    font-size: 0.85rem;
+
+}
+
+#section1 h1{
+    font-size: 2rem;
+}
+
+.waves img{
+    width: 100%;
+    stroke: #F6F6F6;
 }
 
 div.main_footer{
