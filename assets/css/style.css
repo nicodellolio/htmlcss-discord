@@ -225,16 +225,23 @@ section{
 #section2{
     justify-content: space-evenly;
     background-color: #f6f6f6;
-    border-collapse: collapse;
 }
 
 #section2 .text_box{
     width: 25%;
 }
 
+
 #section3{
-    
+    background-image: url(../img/Untitled.svg);
+    justify-content: space-evenly;
 }
+
+#section3 *{
+    margin-top: 4rem;
+}
+
+
 div.main_footer{
     display: flex;
     justify-content: center;
