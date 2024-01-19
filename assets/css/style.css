@@ -1,61 +1,19 @@
 
 body{
     margin: 0;
+    font-family: Helvetica, sans-serif;
 }
 
-/* Header */
-.debug header{
-    background-color: #add8e6;
-    height: 50px;
-    
-}
-
-.debug #logo,#site_header nav,#login{
-    background-color: #daa520;
-    padding: 4px 0px;
-}
-
-.debug div.footer_closure{
-    background-color: #23272aFF;
-    border-top: 1px dashed white;
-    height: 60px;
-}
-
-.debug nav.footer_nav{
-    background-color: #20b2aaFF;
-    height: 100%;
-    border: 1px dashed black;
-}
-
-.debug aside.footer_closure{
-    background-color: #7fffd4FF;
-    width: 75%;
-    height: 80%;
-}
-
-.debug aside.footer_closure>div{
-    background-color: #f08080FF;
-    border: 1px dashed black;
-    align-self: center;
-}
-
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-/* Main */
-
-main{
-    display: flex;
-    flex-wrap: wrap;
-}
-
+/* #region Debug */
 .debug main *{
     height: 300px;
     width: 100%;
 }
+
+/* .debug #logo,#site_header nav,#login{
+    background-color: #daa520;
+    padding: 4px 0px;
+} */
 
 .debug .main_header{
     background-color: #00008bFF;
@@ -72,19 +30,11 @@ main{
     border: 1px dashed black;
 }
 
-.main_header>aside{
-    align-self: center;
-}
+/* .debug header{
+    background-color: #add8e6;
+    height: 50px;
+} */
 
-.main_header{
-    display: flex;
-    justify-content: center;
-}
-
-section{
-    display: flex;
-    justify-content: center;
-}
 
 .debug div.picture_box{
     background-color: #1e90ffFF;
@@ -106,9 +56,16 @@ section{
     height: 500px;
 }
 
-div.main_footer{
-    display: flex;
-    justify-content: center;
+.debug footer{
+    background-color: #23272aFF;
+    height: 300px;
+}
+
+.debug div#footer_links{
+    background-color: #f08080FF;
+    height: 100%;
+    width: 25%;
+    border: 1px dashed white;
 }
 
 .debug aside.main_footer{
@@ -118,21 +75,99 @@ div.main_footer{
     border: 1px dashed black;
 }
 
-aside.main_footer{
+.debug nav.footer_nav{
+    background-color: #20b2aaFF;
+    height: 100%;
+    border: 1px dashed black;
+}
+
+.debug div.footer_closure{
+    background-color: #23272aFF;
+    border-top: 1px dashed white;
+    height: 60px;
+}
+
+.debug aside.footer_closure{
+    background-color: #7fffd4FF;
+    width: 75%;
+    height: 80%;
+}
+
+.debug aside.footer_closure>div{
+    background-color: #f08080FF;
+    border: 1px dashed black;
+    align-self: center;
+}
+/* #endregion Debug */
+
+/* #region Header */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3161e0FF;
+    padding: 1rem 0rem 0.5rem 0rem;
+}
+
+#logo{
+    align-self: flex-end;
+}
+
+button.login{
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+}
+
+#call_to_action a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav#call_to_action{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+}
+/* #endregion Header */
+
+/* #region Main */
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_header>aside{
     align-self: center;
 }
 
-/* Footer */
+.main_header{
+    display: flex;
+    justify-content: center;
+}
 
+section{
+    display: flex;
+    justify-content: center;
+}
+
+div.main_footer{
+    display: flex;
+    justify-content: center;
+}
+
+aside.main_footer{
+    align-self: center;
+}
+/*  #endregion Main */
+
+/* #region Footer */
 footer{
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
-}
-
-.debug footer{
-    background-color: #23272aFF;
-    height: 300px;
 }
 
 div#footer_box{
@@ -143,31 +178,20 @@ div#footer_box{
     height: 90%;
 }
 
-.debug div#footer_links{
-    background-color: #f08080FF;
-    height: 100%;
-    width: 25%;
-    border: 1px dashed white;
-}
-
-
 nav.footer_nav{
     flex-grow: 1;
 }
+/* #endregion Footer */
 
-/* Footer closure */
-
-
+/* #region Footer closure */
 div.footer_closure{
     display: flex;
     justify-content: center;
 }
-
 
 aside.footer_closure{
     display: flex;
     justify-content: space-between;
     align-self: flex-end;
 }
-
-
+/* #endregion Footer closure */
