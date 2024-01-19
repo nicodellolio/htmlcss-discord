@@ -40,8 +40,13 @@ body{
     border: 1px dashed black;
 } */
 
-.debug div.main_footer{
+/* .debug div.main_footer{
     height: 500px;
+} */
+
+.debug aside.main_footer{
+    height: 90%;
+    width: 75%;
 }
 
 .debug footer{
@@ -54,13 +59,6 @@ body{
     height: 100%;
     width: 25%;
     border: 1px dashed white;
-}
-
-.debug aside.main_footer{
-    height: 90%;
-    width: 75%;
-    background-color: #228b22FF;
-    border: 1px dashed black;
 }
 
 .debug nav.footer_nav{
@@ -241,14 +239,20 @@ section{
     margin-top: 4rem;
 }
 
-
 div.main_footer{
+    font-size: 0.85rem;
+    background-color: #f6f6f6;
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+
+div.main_footer{
 }
 
 aside.main_footer{
     align-self: center;
+    width: 50%;
 }
 /*  #endregion Main */
 
