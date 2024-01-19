@@ -15,20 +15,19 @@ body{
     padding: 4px 0px;
 } */
 
-.debug .main_header{
+/* .debug .jumbotron{
     background-color: #00008bFF;
-}
+} */
 
 .debug #section2, .main_footer{
     background-color: #d3d3d3FF;
 }
 
-.debug .main_header>aside{
-    background-color: #ee82eeFF;
-    width: 50%;
+.debug .jumbotron>aside{
+    /* background-color: #ee82eeFF;
     height: 80%;
-    border: 1px dashed black;
-}
+    order: 1px dashed black; */
+} 
 
 /* .debug header{
     background-color: #add8e6;
@@ -106,7 +105,7 @@ header{
     justify-content: space-around;
     align-items: center;
     background-color: #3161e0FF;
-    padding: 1rem 0rem 0.5rem 0rem;
+    padding: 1rem 5rem 0.5rem 5rem;
 }
 
 #logo{
@@ -126,7 +125,7 @@ button.login{
 }
 
 nav#call_to_action{
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
     font-size: 0.75rem;
@@ -137,17 +136,63 @@ nav#call_to_action{
 main{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
-.main_header>aside{
-    align-self: center;
+.jumbotron>aside{
+    padding-top: 2rem;
+    width: 45%; 
+    height: 70%;
+    background: none;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 1.25rem;
+    color: #ffffff;
 }
 
-.main_header{
+.jumbotron{
     display: flex;
+    justify-content: center;
+    background-image: url(../img/jumbo.png);
+    background-repeat: round;
+    padding-bottom: 9%;
+}
+
+.jumbotron h1{
+    font-size: 2.3rem;
+    margin-bottom: 1.25rem ;
+    padding-top: 1.5rem;
+}
+
+.jumbo_btn{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
+.jumbotron button{
+    height: 2rem;
+    margin: 0rem 1rem;
+    border-radius: 25px;
+    border: none;
+    font-weight: 500;
+    font-size: 0.75rem;
+    max-width: fit-content;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+button#mac_download{
+    background-color: #fff;
+}
+
+button#browser_launch{
+    background-color: #23272aFF;
+    color: #fff;
+}
+
+    
 section{
     display: flex;
     justify-content: center;
