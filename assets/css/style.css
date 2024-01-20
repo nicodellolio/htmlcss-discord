@@ -44,10 +44,10 @@ body{
     height: 500px;
 } */
 
-.debug aside.main_footer{
+/* .debug aside.main_footer{
     height: 90%;
     width: 75%;
-}
+} */
 
 .debug footer{
     background-color: #23272aFF;
@@ -132,12 +132,11 @@ main{
 .jumbotron>aside{
     padding-top: 2rem;
     width: 45%; 
-    height: 70%;
     background: none;
     flex-direction: column;
     text-align: center;
-    font-size: 0.85rem;
-    line-height: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     color: #ffffff;
 }
 
@@ -167,10 +166,10 @@ main{
     border-radius: 25px;
     border: none;
     font-weight: 500;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     max-width: fit-content;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 0.5rem 1.5rem;
+    margin-top: 0.5rem
 }
 
 button#mac_download{
@@ -208,11 +207,17 @@ section{
     height: 80%;
     width: 20%;
     align-self: center;
-    font-size: 0.85rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .text_box h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: normal;
+}
+
+div.waves{
+    width: 100%;
 }
 
 .waves img{
@@ -240,20 +245,53 @@ section{
 }
 
 div.main_footer{
-    font-size: 0.85rem;
+    font-size: 1rem;
     background-color: #f6f6f6;
     display: flex;
-    justify-content: center;
     text-align: center;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    padding-bottom: 6rem;
 }
 
-div.main_footer{
+
+.main_footer h1{
+    font-size: 2.5rem;
 }
 
 aside.main_footer{
-    align-self: center;
-    width: 50%;
+    width: 65%;
+    /* align-self: center; */
 }
+
+.main_footer img{
+    width: 70%;
+}
+
+div.mac_download_input{
+background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    padding: 2rem 20px;
+    font-size: 1.25rem;
+    align-self: center;
+}
+
+button.mac_download_input{
+    height: 2rem;
+    margin: 0rem 1rem;
+    border-radius: 25px;
+    border: none;
+    /* font-weight: 500; */
+    font-size: 1rem;
+    max-width: fit-content;
+    padding: 1rem 2rem 2rem 2rem;
+    background-color: #8ea1e1;
+    align-self: center;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
 /*  #endregion Main */
 
 /* #region Footer */
