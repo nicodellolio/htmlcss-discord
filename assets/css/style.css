@@ -4,88 +4,6 @@ body{
     font-family: Helvetica, sans-serif;
 }
 
-/* #region Debug */
-/* .debug main *{
-    height: 500px;
-    width: 100%; */
-
-
-/* .debug #logo,#site_header nav,#login{
-    background-color: #daa520;
-    padding: 4px 0px;
-} */
-
-/* .debug .jumbotron{
-    background-color: #00008bFF;
-} */
-
-/* .debug #section2, .main_footer{
-    background-color: #d3d3d3FF;
-} */
-
-
-/* .debug header{
-    background-color: #add8e6;
-    height: 50px;
-} */
-
-
-/* .debug div.picture_box{
-    background-color: #1e90ffFF;
-    border: 1px dashed black;
-} */
-
-/* .debug aside.text_box{
-    background-color: #ffc0cbFF;
-    border: 1px dashed black;
-} */
-
-/* .debug div.main_footer{
-    height: 500px;
-} */
-
-/* .debug aside.main_footer{
-    height: 90%;
-    width: 75%;
-} */
-/* 
-.debug footer{
-    /* background-color: #23272aFF; */
-    height: 300px;
-} */
-
-/* .debug div#footer_links{ */
-    /* background-color: #f08080FF; */
-    /* height: 100%; */
-    /* width: 25%; */
-    /* border: 1px dashed white; */
-}
-
-/* .debug nav.footer_nav{
-    background-color: #20b2aaFF;
-    height: 100%;
-    border: 1px dashed black;
-} */
-
-.debug div.footer_closure{
-    background-color: #23272aFF;
-    border-top: 1px dashed white;
-    height: 60px;
-}
-
-.debug aside.footer_closure{
-    background-color: #7fffd4FF;
-    width: 75%;
-    height: 80%;
-}
-
-.debug aside.footer_closure>div{
-    background-color: #f08080FF;
-    border: 1px dashed black;
-    align-self: center;
-}
-/* #endregion Debug */
-
 /* #region Header */
 header{
     display: flex;
@@ -140,17 +58,19 @@ main{
     color: #ffffff;
 }
 
-.jumbotron{
+div.jumbotron{
+    width: 100%;
     display: flex;
     justify-content: center;
     background-image: url(../img/jumbo.png);
-    background-repeat: round;
-    padding-bottom: 5%;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 10%;
 }
 
 .jumbotron h1{
-    font-size: 2.3rem;
-    margin-bottom: 1.25rem ;
+    font-size: 2.75rem;
+    margin-bottom: 4rem ;
     padding-top: 1.5rem;
 }
 
@@ -187,6 +107,7 @@ section{
     display: flex;
     justify-content: center;
     padding: 4rem 4rem 6rem 4rem;
+    flex-grow: 1;
 }
 
 #section1{
@@ -375,8 +296,8 @@ button.sign-up{
 
 aside.footer_closure{
     display: flex;
-    justify-content: space-between;
     align-self: flex-end;
     width: 75%;
+    justify-content: space-between;
 }
 /* #endregion Footer closure */
