@@ -17,8 +17,12 @@ header{
     align-self: flex-end;
 }
 
+#logo img{
+    width: 8rem
+}
+
 button.login{
-    padding: 8px 12px;
+    padding: 12px 20px;
     border-radius: 20px;
     border: none;
     background-color: #ffffff;
@@ -33,7 +37,7 @@ nav#call_to_action{
     width: 35%;
     display: flex;
     justify-content: space-between;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
 }
 /* #endregion Header */
 
@@ -53,8 +57,8 @@ main{
     background: none;
     flex-direction: column;
     text-align: center;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     color: #ffffff;
 }
 
@@ -69,7 +73,7 @@ div.jumbotron{
 }
 
 .jumbotron h1{
-    font-size: 2.75rem;
+    font-size: 4.5rem;
     margin-bottom: 4rem ;
     padding-top: 1.5rem;
 }
@@ -81,15 +85,15 @@ div.jumbotron{
 }
 
 .jumbotron button{
-    height: 2rem;
+    height: fit-content;
     margin: 0rem 1rem;
     border-radius: 25px;
     border: none;
     font-weight: 500;
-    font-size: 0.85rem;
+    font-size: 1.5rem;
     max-width: fit-content;
-    padding: 0.5rem 1.5rem;
-    margin-top: 0.5rem
+    padding: 1.0rem 1.5rem;
+    margin-top: 0.5rem;
 }
 
 button#mac_download{
@@ -128,12 +132,12 @@ section{
     height: 80%;
     width: 20%;
     align-self: center;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
 }
 
 .text_box h1{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     line-height: normal;
 }
 
@@ -158,6 +162,7 @@ div.waves{
 
 #section3{
     background-image: url(../img/Untitled.svg);
+    background-size: cover;
     justify-content: space-evenly;
 }
 
@@ -166,7 +171,7 @@ div.waves{
 }
 
 div.main_footer{
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: #f6f6f6;
     display: flex;
     text-align: center;
@@ -178,7 +183,7 @@ div.main_footer{
 
 
 .main_footer h1{
-    font-size: 2.5rem;
+    font-size: 3.75rem;
 }
 
 aside.main_footer{
@@ -191,22 +196,23 @@ aside.main_footer{
 }
 
 div.mac_download_input{
-background-image: url(../img/stars.svg);
+    background-image: url(../img/stars.svg);
+    background-size: contain;
     background-repeat: no-repeat;
-    padding: 2rem 20px 1rem 20px;
-    font-size: 1.25rem;
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 1.75rem;
     align-self: center;
 }
 
 button.mac_download_input{
     height: 2rem;
     margin: 0rem 1rem;
-    border-radius: 25px;
+    border-radius: 50px;
     border: none;
-    /* font-weight: 500; */
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 1.75rem;
     max-width: fit-content;
-    padding: 1rem 2rem 2rem 2rem;
+    padding: 1rem 2.25rem 3rem 2.25rem;
     background-color: #8ea1e1;
     align-self: center;
     color: #fff;
@@ -230,9 +236,17 @@ div#footer_box{
     height: 90%;
 }
 
+div#footer_link{
+    padding-right: 6rem;
+}
+
 #footer_links aside{
     width: 90%;
     color:#7289da;
+}
+
+#footer_links h2{
+    font-size: 2rem;
 }
 
 aside#language{
@@ -248,7 +262,7 @@ div.social{
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
 }
 
 #footer_box{
@@ -267,6 +281,7 @@ div.social{
 
 .footer_nav div{
     color:#7289da;
+    font-size: 1.25rem;
     font-weight: 600;    
     line-height: 2rem;
     padding-top: 1rem;
