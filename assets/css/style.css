@@ -48,11 +48,11 @@ body{
     height: 90%;
     width: 75%;
 } */
-
+/* 
 .debug footer{
     /* background-color: #23272aFF; */
     height: 300px;
-}
+} */
 
 /* .debug div#footer_links{ */
     /* background-color: #f08080FF; */
@@ -330,7 +330,6 @@ div.social{
     margin-top: 0.5rem;
 }
 
-/* Ho provato a chiamarlo nel css con la classe .footer_nav ma non lo chiamava */
 #footer_box nav a{
     display: flex;
     flex-direction: column;
@@ -339,26 +338,12 @@ div.social{
     line-height: 2rem;
 }
 
-.fn1 div{
+.footer_nav div{
     color:#7289da;
     font-weight: 600;    
     line-height: 2rem;
     padding-top: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 nav.footer_nav{
     flex-grow: 1;
