@@ -272,7 +272,7 @@ aside.main_footer{
 div.mac_download_input{
 background-image: url(../img/stars.svg);
     background-repeat: no-repeat;
-    padding: 2rem 20px;
+    padding: 2rem 20px 1rem 20px;
     font-size: 1.25rem;
     align-self: center;
 }
@@ -330,6 +330,12 @@ div.social{
     margin-top: 0.5rem;
 }
 
+#footer_box{
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #7289da;
+}
+
 #footer_box nav a{
     display: flex;
     flex-direction: column;
@@ -354,11 +360,23 @@ nav.footer_nav{
 div.footer_closure{
     display: flex;
     justify-content: center;
+    background-color: #23272a;
+    padding-top: 1rem;
+    padding-bottom: 4rem;    
+}
+
+button.sign-up{
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #8ea1e1;
+    color: #fff;
 }
 
 aside.footer_closure{
     display: flex;
     justify-content: space-between;
     align-self: flex-end;
+    width: 75%;
 }
 /* #endregion Footer closure */
