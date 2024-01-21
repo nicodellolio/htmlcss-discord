@@ -50,22 +50,22 @@ body{
 } */
 
 .debug footer{
-    background-color: #23272aFF;
+    /* background-color: #23272aFF; */
     height: 300px;
 }
 
-.debug div#footer_links{
-    background-color: #f08080FF;
-    height: 100%;
-    width: 25%;
-    border: 1px dashed white;
+/* .debug div#footer_links{ */
+    /* background-color: #f08080FF; */
+    /* height: 100%; */
+    /* width: 25%; */
+    /* border: 1px dashed white; */
 }
 
-.debug nav.footer_nav{
+/* .debug nav.footer_nav{
     background-color: #20b2aaFF;
     height: 100%;
     border: 1px dashed black;
-}
+} */
 
 .debug div.footer_closure{
     background-color: #23272aFF;
@@ -299,15 +299,66 @@ footer{
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
+    background-color: #23272a;
 }
 
 div#footer_box{
     display: flex;
-    justify-content: center;
     align-self: center;
     width: 75%;
     height: 90%;
 }
+
+#footer_links aside{
+    width: 90%;
+    color:#7289da;
+}
+
+aside#language{
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+#language img{
+    height: 1rem;
+}
+
+div.social{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 0.5rem;
+}
+
+/* Ho provato a chiamarlo nel css con la classe .footer_nav ma non lo chiamava */
+#footer_box nav a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #fff;
+    line-height: 2rem;
+}
+
+.fn1 div{
+    color:#7289da;
+    font-weight: 600;    
+    line-height: 2rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 nav.footer_nav{
     flex-grow: 1;
