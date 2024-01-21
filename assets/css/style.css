@@ -13,11 +13,11 @@ header{
     padding: 1rem 5rem 0.5rem 5rem;
 }
 
-#logo{
+.logo{
     align-self: flex-end;
 }
 
-#logo img{
+.logo img{
     width: 8rem
 }
 
